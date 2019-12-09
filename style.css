@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    font-family: 'Amatic SC', cursive;
+}
+
+.menu{
+    height: 100px;
+    background-color: #76078765;
+}
+
+.logo{
+    width: 120px;
+}
+
+.container{
+    width: 100vw;
+}
+
+.img{
+    background-image: url(./img/bandeira.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 396px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   opacity: 70%;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    text-shadow: 2px 2px black;
+
+}
+
+.nav-item{
+    font-size: 36px;
+    font-weight: 800;
+    text-shadow: 2px 2px black;
+
+}
