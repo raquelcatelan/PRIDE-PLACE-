@@ -1,46 +1,287 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
-    <title>PRIDE PLACE</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+  <title>PRIDE PLACE</title>
 </head>
+
 <body>
+  <!-- //**nav**// -->
+  <nav class="navbar navbar-expand-lg navbar-light menu  fixed-top navegacao  d-flex justify-content-between ">
 
-        <nav class="navbar navbar-expand-lg navbar-light menu   ">
-                <a class="navbar-brand" href="#"><img class="logo" src="img/logopride.png"/> </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav  ">
-                    <li class="nav-item active  ">
-                      <a class="nav-link  text-danger  " href="#">SOBRE<span class="sr-only">(Página atual)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-warning " href="#">SAÚDE</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-success " href="#">ABRIGO</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-primary " href="#">DENÚNCIA+</a>
-                    </li>
-                  </ul>
+    <a class="navbar navbar-brand" href="#"><img class="logo" src="img/logopride.png" /> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse d-flex justify-content-end " id="navbarNav">
+      <ul class="navbar-nav ">
+        <li class="nav-item active  ">
+          <a class="nav-link  text-danger  " href="#">SOBRE<span class="sr-only">(Página atual)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-warning " href="#">SAÚDE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-success " href="#">ABRIGO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-primary " href="#">DENÚNCIA+</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- //**header**// -->
+  <section class="img">
+    <h1 class="titulo-cabecalho">Porque se orgulhar também é cuidar</h1>
+
+  </section>
+
+  <!-- //**sobre**// -->
+  <section class="sobre">
+    <h2 class=" text-danger">SOBRE</h2>
+    <p class="  text-center texto-sobre">
+      Um projeto que nasceu da necessidade de juntar as informações certas
+      para ajudar a comunidade LGBTI+ a se cuidar e se proteger com serviços gratuitos
+      ou mais acessíveis.
+
+    </p>
+
+  </section>
+
+  <!-- //**saude**// -->
+  <section class="saude">
+    <h2 class=" titulo-saude  text-warning">SAÚDE</h2>
+    <div class="cards ">
+
+
+      <!-- //**card1 **// -->
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./img/psico.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">Assistência Psicológica</h5>
+          <a href="#" class="btn btn-warning botao-saiba ">Saiba mais </a>
+        </div>
+      </div>
+      <!-- //**modal1**// -->
+      <div class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Título do modal</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Texto do corpo do modal, é aqui.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- //** card2**// -->
+
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./img/GINECO.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">Ginecologista/Urologista</h5>
+
+          <a href="#" class="btn btn-warning botao-saiba ">Saiba mais </a>
+        </div>
+      </div>
+
+      <!-- //**modal2**// -->
+
+      <div class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Título do modal</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Texto do corpo do modal, é aqui.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- //**card3**// -->
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./img/TESTE.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">TESTE DE HIV</h5>
+
+          <a href="#" class="btn btn-warning botao-saiba ">Saiba mais </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- //**modal3**// -->
+    <div class="modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Título do modal</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Texto do corpo do modal, é aqui.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    </div>
+  </section>
+
+  <section class="abrigo">
+    <h2 class="  titulo-abrigo text-success">
+      ABRIGO </h2>
+    <div class="cards ">
+      <!-- //**card1 **// -->
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./img/casa1.jpeg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">SÃO PAULO</h5>
+          <a href="#" class="btn btn-warning botao-saiba ">Saiba mais </a>
+        </div>
+      </div>
+
+      <!-- //** modal1 **// -->
+      <div class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Título do modal</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Texto do corpo do modal, é aqui.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <p class="texto-abrigo">
+        Precisa de um novo lar?
+        Aqui você encontra
+        aconchego, carinho, amor e
+        respeito por quem você é
+      </p>
+
+      <!-- //** card2**// -->
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./img/casanem.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">OUTROS ESTADOS</h5>
+          <a href="#" class="btn btn-warning botao-saiba ">Saiba mais </a>
+        </div>
+      </div>
+
+      <!-- //**modal2**// -->
+      <div class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Título do modal</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Texto do corpo do modal, é aqui.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="denuncia">
+    <h2 class=" titulo-denuncia text-primary "> DENÚNCIA+ </h2>
+    <div class="cards ">
+      <!-- //**card1**// -->
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./img/denunci.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+              <h5 class="card-title">FAZER DENÚNCIA DE LGBTFOBIA</h5>
+              <a href="#" class="btn btn-warning botao-saiba ">Saiba mais </a>
+            </div>
+          </div>
+
+          <!-- //**modal1**// -->
+          <div class="modal" tabindex="-1" role="dialog">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Título do modal</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Texto do corpo do modal, é aqui.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+      
+                  </div>
                 </div>
-              </nav>
-    
+              </div>
+            </div>
 
-              <section class="img" >
-                <h1>Porque se orgulhar também é cuidar</h1>
-                
-              </section>
+
+
+    </div>
+  </section>
+
+
+  <footer class="rodape">
+    <span>
+      @Desenvolvido por Raquel Catelan, aluna {Reprograma}
+    </span>
+  </footer>
 
 
 </body>
+
 </html>
